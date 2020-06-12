@@ -5,7 +5,7 @@ const fs = require("fs");
 const config = require("./config.json");
 client.config = config;
 
-client.login(process.evn.token);
+client.login(process.env.token);
 
 fs.readdir("./events/", (err, files) => {
   if (err) return console.error(err);
