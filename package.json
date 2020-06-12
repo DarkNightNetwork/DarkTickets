@@ -1,0 +1,7 @@
+{
+    "name": "DarkTickets",
+    "version": "1.0.0",
+    "description": "DarkNightNetwork Ticket Bot",
+    "main": "index.js",
+    "author": ""
+  }
